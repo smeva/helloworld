@@ -16,4 +16,10 @@ public class HelloWorld {
 		return "My aws log  App";
 	}
 
+       @RequestMapping("/test")
+	public String testjava() {
+		return "My test result";
+	}
+
+
 }
